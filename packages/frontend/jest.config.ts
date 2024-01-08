@@ -2,7 +2,7 @@ import type { Config } from '@jest/types'
 
 const config: Config.InitialOptions = {
   preset: 'ts-jest',
-  displayName: 'wotree-web',
+  displayName: 'pill-web',
   testEnvironment: 'jsdom',
   testEnvironmentOptions: {
     customExportConditions: [] // don't load "browser" field

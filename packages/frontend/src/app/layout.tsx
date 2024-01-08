@@ -17,7 +17,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <title>Wotree</title>
+      <title>Pill</title>
       <body className={inter.className} suppressHydrationWarning={true}>
         <SnackbarProvider
           maxSnack={3}
