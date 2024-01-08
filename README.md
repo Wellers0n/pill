@@ -15,54 +15,56 @@
     
 <br/>
 
-## About the project
+## Fullstack typescript/javascript
 
-Pill uses a stack full `Typescript` on the frontend and backend, I'm making this project to improve
+Pill uses a stack full `JS/TS` on the frontend and backend, I'm making this project to improve
 my skills!
 
 ## Node version
 
 Use node `v18.12.1`
 
-## Initing in the your PC
+## Initiating in the your PC
 
 - For clone the project `git clone https://github.com/Wellers0n/pill.git`
 - Enter in the folder `cd pill/`
-- To install project dependency: `yarn`
 
-## Init docker-compose
-
-At the root directory, run the following commands:
+## Install dependencies
 
 ```sh
-docker-compose up --build -d
+yarn
 ```
 
-Or start the server via script locally
+## Init application
+
+Init docker-compose
+
+At the root directory, run the following command:
+
+### docker-compose
 
 ```sh
-yarn dev
+ docker-compose up -d
 ```
 
 ## Listening in
 
-PORT: `http://localhost:3001`
+frontend port: `http://localhost:3000`
+
+backend port: `http://localhost:3001`
 
 ## API Docs
 
 Visit [http://localhost:3001/docs/](http://localhost:3001/docs/) for more information about the documentation
 
-## kill docker-compose
-
-```sh
-docker-compose down -v
-```
+ <img src="./swagger.png" />
 
 ## Stack used
 
-[ReactJS](https://reactjs.org/)<br/>
-[ExpressJS](https://expressjs.com/)<br/>
-[MongoDB](https://www.mongodb.com/)<br/>
+[NextJS](https://nextjs.org/)<br/>
+[Docker](https://www.docker.com/)<br/>
+[Jest](https://jestjs.io/pt-BR/)<br/>
 [Swagger](https://swagger.io/)<br/>
 [Docker-compose](https://docs.docker.com/compose/)<br/>
 [Yarn](https://yarnpkg.com/en/)<br/>
+[WorkSpaces](https://yarnpkg.com/lang/en/docs/workspaces/)<br/>
