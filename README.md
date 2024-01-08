@@ -15,9 +15,9 @@
     
 <br/>
 
-## Nodejs and kafka
+## About the project
 
-Pill uses a stack full `Typescript` on the backend, I'm making this project to improve
+Pill uses a stack full `Typescript` on the frontend and backend, I'm making this project to improve
 my skills!
 
 ## Node version
@@ -30,17 +30,15 @@ Use node `v18.12.1`
 - Enter in the folder `cd pill/`
 - To install project dependency: `yarn`
 
-## Init kafka and apache
+## Init docker-compose
 
 At the root directory, run the following commands:
-
-start kafka and apache
 
 ```sh
 docker-compose up --build -d
 ```
 
-and start server
+Or start the server via script locally
 
 ```sh
 yarn dev
