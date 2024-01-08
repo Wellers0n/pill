@@ -20,7 +20,7 @@ export default function Home() {
     <main>
       <Header />
       {isLoading ? (
-        <div className="flex w-screen items-center justify-center">
+        <div className="flex w-screen items-center justify-center h-28">
           <Loading />
         </div>
       ) : !response?.data ? (
