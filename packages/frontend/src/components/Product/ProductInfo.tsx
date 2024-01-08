@@ -8,7 +8,7 @@ export interface ProductInfoProps {
 const ProductInfo = (props: ProductInfoProps) => {
   const { name, description, barcode, price } = props
   return (
-    <div className="rounded-lg h-[575px] w-1/3 bg-white flex flex-col">
+    <div className="rounded-lg lg:h-[650px] h-auto w-full lg:w-1/3 bg-white flex flex-col">
       <div className="block p-4">
         <h5 className="mb-2 text-md font-bold tracking-tight text-gray-600 dark:text-gray-500">
           {name}

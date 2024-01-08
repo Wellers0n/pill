@@ -7,7 +7,7 @@ export interface ProductImageProps {
 const ProductImage = (props: ProductImageProps) => {
   const { url } = props
   return (
-    <div className="flex justify-center items-center h-[575px] p-6 bg-white rounded-lg w-1/2">
+    <div className="flex justify-center items-center lg:h-[650px] w-full h-auto p-6 bg-white rounded-lg lg:w-1/2">
       <Image
         src={url}
         width={450}
