@@ -4,7 +4,7 @@ export interface ProductLayoutProps {
 
 const ProductLayout = (props: ProductLayoutProps) => {
   const { children } = props
-  return <div className="grid grid-cols-6 gap-4 mt-10 p-10">{children}</div>
+  return <div className="container mx-auto flex justify-center items-start mt-20 gap-3">{children}</div>
 }
 
 export { ProductLayout }

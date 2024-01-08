@@ -5,8 +5,16 @@ const nextConfig = {
   env: {
     BASE_URL: process.env.BASE_URL,
     ENVIRONMENT: process.env.ENVIRONMENT,
-    JWT_SECRET: process.env.JWT_SECRET,
+    JWT_SECRET: process.env.JWT_SECRET
   },
-};
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**'
+      }
+    ]
+  }
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig

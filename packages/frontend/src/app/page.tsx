@@ -7,8 +7,6 @@ import {
   ProductLayout,
   ProductImage,
   ProductInfo,
-  ProductBarcode,
-  ProductPrice,
   ProductNotFound
 } from '@/components/Product'
 import useProductData from '@/hooks/product/useProductData'
@@ -35,9 +33,9 @@ export default function Home() {
           <ProductInfo
             name={response?.data.brand}
             description={response?.data.name}
+            barcode={response?.data.barcode}
+            price={response?.data.price}
           />
-          <ProductBarcode barcode={response?.data.barcode} />
-          <ProductPrice price={response?.data.price} />
         </ProductLayout>
       )}
 
