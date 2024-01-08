@@ -34,7 +34,7 @@ const ProductInfo = (props: ProductInfoProps) => {
             Informações de entrega
           </h4>
           <div>
-            <h6 className="text-sm font-normal tracking-tight text-gray-400">calcular frente</h6>
+            <h6 className="text-sm font-normal tracking-tight text-gray-400">calcular frete</h6>
             <div className="flex gap-3">
             <input type="text" className="border w-full border-gray-400 p-2 rounded-md text-blue-900" />
             <button className="rounded-md bg-blue-900 h-10 w-32 text-white">calcular</button>
