@@ -47,6 +47,12 @@ At the root directory, run the following command:
  docker-compose up -d
 ```
 
+### docker-compose down
+
+```sh
+ docker-compose down
+```
+
 ## Listening in
 
 frontend port: `http://localhost:3000`
