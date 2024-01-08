@@ -1,0 +1,22 @@
+{
+  "name": "pill",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Wellers0n/pill.git",
+  "author": "Wellerson <wllrsn.c@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "yarn dev:backend & yarn dev:frontend",
+    "dev:frontend": "yarn workspace @pill/frontend run dev",
+    "dev:backend": "yarn workspace @pill/backend run dev",
+    "test:backend": "yarn workspace @pill/backend run test",
+    "test:frontend": "yarn workspace @pill/frontend run test"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/frontend",
+      "packages/backend"
+    ]
+  }
+}
