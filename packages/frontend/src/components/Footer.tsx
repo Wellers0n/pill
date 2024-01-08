@@ -1,7 +1,7 @@
 const Header = () => {
     return (
-      <footer className="lg:fixed bottom-0">
-        <nav className="bg-white border-gray-800 px-6 lg:px-8 py-2.5 dark:bg-white w-screen">
+      <footer className="lg:fixed lg:bottom-0 w-full">
+        <nav className="bg-white border-gray-800 px-6 lg:px-8 py-2.5 dark:bg-white w-full">
           <div className="flex flex-wrap justify-end items-center w-full">
             <a href="https://www.linkedin.com/company/pillfarma/" target="_blank" className="flex items-center">
               <img

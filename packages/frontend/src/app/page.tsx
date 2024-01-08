@@ -20,7 +20,7 @@ export default function Home() {
     <main>
       <Header />
       {isLoading ? (
-        <div className="flex w-screen items-center justify-center h-28">
+        <div className="flex w-full items-center justify-center h-28">
           <Loading />
         </div>
       ) : !response?.data ? (
@@ -39,7 +39,7 @@ export default function Home() {
         </ProductLayout>
       )}
 
-      <Footer />
+      {isLoading ? null : <Footer />}
     </main>
   )
 }
