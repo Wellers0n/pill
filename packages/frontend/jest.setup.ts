@@ -1,3 +1,6 @@
+import { TextEncoder } from 'util';
+global.TextEncoder = TextEncoder;
+
 import '@testing-library/jest-dom/extend-expect'
 import 'whatwg-fetch'
 import { server } from './src/test/server'

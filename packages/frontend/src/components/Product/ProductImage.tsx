@@ -13,7 +13,6 @@ const ProductImage = (props: ProductImageProps) => {
         width={450}
         height={450}
         alt="Product img"
-        objectFit="cover"
       />
     </div>
   )
