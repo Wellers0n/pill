@@ -17,8 +17,6 @@ const getProductService = async (data: Data) => {
     throw new NotFoundError('Produto não encontrado')
   }
 
-
-
   const $ = load(pageHTML.data)
   const product = JSON.parse($('[type="application/ld+json"]').text())
 

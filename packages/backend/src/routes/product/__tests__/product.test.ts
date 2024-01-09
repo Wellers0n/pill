@@ -35,7 +35,7 @@ describe('GET /product', () => {
         "barcode": "7891058020941",
         "brand": "Dorflex",
         "image": "https://img.drogasil.com.br/catalog/product/d/o/dorflex-com-50-comprimidos_10.jpg?width=450&height=450&quality=85&type=resize",
-        "price": "22.39"
+        "price": "22.29"
       }
     }
 

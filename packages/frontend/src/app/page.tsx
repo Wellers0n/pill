@@ -12,7 +12,7 @@ import {
 import useProductData from '@/hooks/product/useProductData'
 
 export default function Home() {
-  const URL = 'https://www.drogasil.com.br/neosaldina-30-drageas.html'
+  const URL = 'https://www.drogasil.com.br/novalgina-1-grama-10-comprimidos.html'
 
   const { response, isLoading } = useProductData({ url: URL })
 
