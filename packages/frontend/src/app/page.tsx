@@ -1,5 +1,4 @@
 'use client'
-
 import Header from '@/components/Header'
 import Loading from '@/components/Loading'
 import Footer from '@/components/Footer'
@@ -10,16 +9,23 @@ import {
   ProductNotFound
 } from '@/components/Product'
 import useProductData from '@/hooks/product/useProductData'
+import { useSearchParams } from 'next/navigation'
 
 export default function Home() {
-  const URL = 'https://www.drogasil.com.br/novalgina-1-grama-10-comprimidos.html'
+  const searchParams = useSearchParams()
+  const url = searchParams.get('url') as string
 
-  const { response, isLoading } = useProductData({ url: URL })
+  const { response, isLoading } = useProductData({ url })
+
+  const urlRegex =
+    /^(https?:\/\/)?(www\.)?([\w.-]+)\.([a-z]{2,})(\/[\w.-]*)*\/?(\?[^\s]*)?$/
+
+  const matches = url?.match(urlRegex)
 
   return (
     <main>
       <Header />
-      {isLoading ? (
+      {matches && isLoading ? (
         <div className="flex w-full items-center justify-center h-28">
           <Loading />
         </div>

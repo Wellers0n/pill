@@ -23,14 +23,10 @@ const useProductData = (props: Props) => {
 
   const { data, error, isLoading } = useQuery<Response, AxiosError<Error>>(
     ['product', url],
-    () =>
+    async () =>
       getProduct({
         url
-      }),
-    {
-      refetchOnWindowFocus: true,
-      keepPreviousData: true
-    }
+      })
   )
 
   if (error) {
