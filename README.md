@@ -17,17 +17,16 @@
 
 ## Fullstack typescript/javascript
 
-Pill uses a stack full `JS/TS` on the frontend and backend, I'm making this project to improve
+Pill uses a full stack `JS/TS` frontend and backend. This project was made to improve
 my skills!
 
 ## Node version
 
 Use node `v18.12.1`
 
-## Initiating in the your PC
+## Initiating on your PC
 
-- For clone the project `git clone https://github.com/Wellers0n/pill.git`
-- Enter in the folder `cd pill/`
+- Clone the project: `git clone https://github.com/Wellers0n/pill.git`
 
 ## Install dependencies
 
