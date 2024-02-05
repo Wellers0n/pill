@@ -15,58 +15,48 @@
     
 <br/>
 
-## Fullstack typescript/javascript
+### Fullstack Typescript/Javascript project
+Pill uses a full stack `JS/TS` frontend and backend.
 
-Pill uses a stack full `JS/TS` on the frontend and backend, I'm making this project to improve
-my skills!
-
-## Node version
-
+### Node version
 Use node `v18.12.1`
 
-## Initiating in the your PC
+<br/>
 
-- For clone the project `git clone https://github.com/Wellers0n/pill.git`
-- Enter in the folder `cd pill/`
+## Getting started
 
-## Install dependencies
+Clone the project:
+```sh
+git clone https://github.com/Wellers0n/pill.git
+```
 
+Install dependencies:
 ```sh
 yarn
 ```
 
-## Init application
+## Initializing application with Docker
 
-Init docker-compose
-
-At the root directory, run the following command:
-
-### docker-compose
-
+To init docker-compose, at the root directory run the following command:
 ```sh
  docker-compose up -d
 ```
 
-### docker-compose down
-
+When you finish, run the following command:
 ```sh
  docker-compose down
 ```
 
-## Listening in
+## Listening
+Frontend port: `http://localhost:3000`<br/>
+Backend port: `http://localhost:3001`
 
-frontend port: `http://localhost:3000`
-
-backend port: `http://localhost:3001`
-
-## API Docs
-
-Visit [http://localhost:3001/docs/](http://localhost:3001/docs/) for more information about the documentation
+## API Documentation
+Visit [http://localhost:3001/docs/](http://localhost:3001/docs/) for more information about the API
 
  <img src="./swagger.png" />
 
 ## Stack used
-
 [NextJS](https://nextjs.org/)<br/>
 [Docker](https://www.docker.com/)<br/>
 [Jest](https://jestjs.io/pt-BR/)<br/>
